@@ -1,9 +1,9 @@
 import React from "react";
 import { useState } from "react";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 
 export default function Login(props) {
-    const history=useHistory();
+//     const history=useHistory();
     const [credentials,setCredentails]=useState({email:"",password:""});
 
     const onChange=(e)=>
@@ -29,7 +29,7 @@ export default function Login(props) {
         {
             //redirect to home page
             localStorage.setItem('token',json.authToken);
-            history.push("/");
+//             history.push("/");
             props.showalert('Login Successfully','success');
         }
         else
