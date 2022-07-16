@@ -43,7 +43,7 @@ export default function Signup(props) {
 
   return (
     <div className="mt-2">
-      <h2>Register yourself for using INoteBook</h2>
+      <h2>Register yourself</h2>
       <div className="my-4"></div>
       <form onSubmit={onSubmit}>
       <div className="form-group my-3">
