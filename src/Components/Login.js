@@ -41,7 +41,7 @@ export default function Login(props) {
 
   return (
     <div className="mt-2">
-      <h2>Login to continue using INoteBook</h2>
+      <h2>Login</h2>
       <div className="my-4"></div>
       <form onSubmit={onSubmit}>
         <div className="form-group my-3">
